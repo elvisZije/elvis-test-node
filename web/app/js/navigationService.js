@@ -1,4 +1,4 @@
-var appServices = angular.module('myApp.services', []);
+var appServices = angular.module('myApp.services', ['ngResource']);
 
 appServices.factory('NavigationService', ['$resource',
     function($resource) {
